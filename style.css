@@ -84,6 +84,17 @@ button {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+.hero button {
+    border: 2px solid #3882F6;
+}
+
+.call-to-action button {
+    border: 2px solid #F9FAF8;
 }
 
 .information .box {
