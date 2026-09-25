@@ -1,5 +1,6 @@
 body {
     font-family: Roboto;
+    margin: 0;
 }
 
 .header,
@@ -11,6 +12,12 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 a {
