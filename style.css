@@ -1,26 +1,20 @@
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', 'Times New Roman', serif;
     margin: 0;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    height: 72px;
-    padding: 0 350px;
-    align-items: center;
-}
-
-.hero {
-    display: flex;
-    justify-content: space-between;
-    padding: 84px 350px;
-}
-
-.header,
-.hero,
-.footer {
+.header-box {
     background-color: #1F2937;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-box .content-box {
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -41,101 +35,4 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.hero .heading {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 900;
-}
-
-.hero .text {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-button,
-.call-to-action {
-    background-color: #3882F6
-}
-
-.information .heading {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-}
-
-.information .text {
-    font-size: 18px;
-    color: rgb(80,80,80);
-}
-
-.quote {
-    background-color: #E5E7EB;
-}
-
-.quote .text {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.quote .author {
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.call-to-action {
-    color: #F9FAF8;
-}
-
-.call-to-action .heading {
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.call-to-action text {
-    font-size: 18px;
-}
-
-.footer {
-    color: #F9FAF8;
-    font-size: 18px;
-}
-
-button {
-    color: #F9FAF8;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
-    padding: 8px 32px;
-    border-radius: 8px;
-    margin-top: 10px;
-}
-
-.hero button {
-    border: 2px solid #3882F6;
-}
-
-.call-to-action button {
-    border: 2px solid #F9FAF8;
-}
-
-.information .box {
-    width: 120px;
-    height: 120px;
-    border: 5px solid #3882F6;
-    border-radius: 10px;
-}
-
-.hero .box {
-    display: flex;
-    flex-shrink: 0;
-    width: 450px;
-    height: 200px;
-    background-color: rgb(80,80,80);
-    color: #F9FAF8;
-    justify-content: center;
-    align-items: center;
 }
