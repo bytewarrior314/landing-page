@@ -3,7 +3,8 @@ body {
     margin: 0;
 }
 
-.header-box {
+.header-box,
+.footer-box {
     background-color: #1F2937;
     height: 72px;
     display: flex;
@@ -199,4 +200,11 @@ button {
     cursor: pointer;
     padding: 8px 32px;
     border-radius: 8px;
+}
+
+.footer-box .content-box {
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 18px;
 }
