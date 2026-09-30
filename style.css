@@ -156,9 +156,42 @@ a {
     text-align: end;
 }
 
+.call-to-action-box {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+}
 
+.call-to-action-box .content-box {
+    width: 1000px;
+    padding: 20px 0;
+    margin: 56px 0;
+    background-color: #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action-box .heading {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.call-to-action-box .text {
+    font-size: 18px;
+    font-weight: 300;
+    color: #F9FAF8;
+}
+
+.call-to-action-box button {
+    border: 2px solid #F9FAF8;
+}
 
 button {
+    height: 40px;
     color: #F9FAF8;
     background-color: #3882F6;
     font-size: 18px;
@@ -166,5 +199,4 @@ button {
     cursor: pointer;
     padding: 8px 32px;
     border-radius: 8px;
-    margin-top: 10px;
 }
