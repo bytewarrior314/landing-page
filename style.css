@@ -84,6 +84,51 @@ a {
     align-items: center;
 }
 
+.information-box {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.information-box .content-box {
+    width: 1000px;
+    margin-top: 32px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.information-box .illustrations {
+    display: flex;
+    gap: 48px;
+}
+
+.information-box .illustration-card {
+    width: 165px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-box .heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information-box .image-placeholder {
+    height: 160px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.information-box .text {
+    margin-top: 8px;
+    font-size: 18px;
+    color: rgb(80,80,80);
+    text-align: center;
+}
+
 
 
 button {
